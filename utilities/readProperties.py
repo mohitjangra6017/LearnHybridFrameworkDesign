@@ -1,7 +1,9 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read(".\\Configuration\\config.ini")
+# config.read(".\\Configuration\\config.ini")
+config.read("/home/mohit/SDET/Hybrid_Pytest_Framework/LearnHybridFrameworkDesign/Configuration/config.ini")
+
 
 
 class ReadConfig():
